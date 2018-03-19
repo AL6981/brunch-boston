@@ -9,7 +9,7 @@ def array_of_restaurant_objects
   #create an empty array
   #loop through CSV file to grab data -> CSV.foreach('restaurants.csv', headers: true) do |row|
     # use binding.pry to see what is passed each loop
-    #add new restaurant object to the empty array -> Restaurant.new(row["id"], row["name"], row["address"], row["description"], row["url"], row["image"])
+    # add new restaurant object to the empty array -> Restaurant.new(row["id"], row["name"], row["address"], row["description"], row["url"], row["image"])
   #return array of objects
 end
 
